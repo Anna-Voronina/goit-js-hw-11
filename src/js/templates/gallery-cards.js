@@ -18,7 +18,7 @@
 
 export const createGalleryCards = photoCards => {
   const photoCardsArr = photoCards.map(photoCard => {
-    return `<div class="photo-card">
+    return `<a class="photo-card" href="${photoCard.largeImageURL}">
   <img src="${photoCard.webformatURL}" alt="${photoCard.tags}" loading="lazy" />
   <div class="info">
     <p class="info-item">
@@ -38,7 +38,7 @@ export const createGalleryCards = photoCards => {
       <span>${photoCard.downloads}</span>
     </p>
   </div>
-</div>`;
+</a>`;
   });
 
   return photoCardsArr.join('');
