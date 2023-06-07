@@ -1,2 +1,0 @@
-.load-more-btn{min-height:35px;background-color:#0c25e3;border:none;border-radius:3px;justify-content:center;align-items:center;gap:5px;margin-left:auto;margin-right:auto;display:flex}.loader{width:25px;height:25px;box-sizing:border-box;border:5px dotted #fff;border-radius:50%;animation:rotation 2s linear infinite;display:inline-block;position:relative}@keyframes rotation{0%{transform:rotate(0deg)}to{transform:rotate(360deg)}}.btn-label{color:#fff;font-size:16px;font-weight:500}.is-hidden{display:none}
-/*# sourceMappingURL=index.00cdf867.css.map */
