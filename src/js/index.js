@@ -15,6 +15,8 @@ const loadMoreBtn = new LoadMoreBtn({
   hidden: true,
 });
 
+console.log(loadMoreBtn.enable);
+
 refs.searchForm.addEventListener('submit', onSearchFormSubmit);
 loadMoreBtn.refs.button.addEventListener('click', onLoadMoreBtnClick);
 
